@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+	<div class="container">
+		<div class="title">Registration</div>
+		<form action="connect.php" method="post">
+			<div class="user-details">
+				<div class="input-box">
+					<span class="details">Full Name</span>
+					<input type="text" name="fullname" placeholder="Enter your name" required>
+				</div>
+				<div class="input-box">
+					<span class="details">D.O.B</span>
+					<input type="text" name="dob" placeholder="Enter your date of birth" required>
+				</div>
+				<div class="input-box">
+					<span class="details">E-mail</span>
+					<input type="email" name="email" placeholder="Enter your e-mail" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Phone Number</span>
+					<input type="text" name="number" placeholder="Enter your number" required>
+				</div>
+				<div class="input-box">
+					<span class="details">New Password</span>
+					<input type="text" name="password" placeholder="Enter password" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Confirm Password</span>
+					<input type="text" name="password" placeholder="Confirm your password" required>
+				</div>
+				<div class="input-box">
+					<span class="details">State</span>
+					<input type="text" name="state" placeholder="Enter area" required>
+				</div>
+				<div class="input-box">
+					<span class="details">City</span>
+					<input type="text" name="city" placeholder="Enter city" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Pin-Code</span>
+					<input type="number" name="pincode" placeholder="Enter pin-code" required>
+				</div>
+				<div class="input-box">
+					<span class="details">Gender</span>
+					<input type="text" name="gender" placeholder="Enter gender" required>
+				</div>
+			
+			<div class="button">
+				<input type="submit" name="save" value="Register">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
